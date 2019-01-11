@@ -17,7 +17,7 @@ end
 
 def reverse_array(array)
   array2 = Array.new
-  array.each{array2.unshift(array.shift)}
+  array.each{|el| array2.unshift(el)}
   #array.send(:reverse)
   array2
 end
