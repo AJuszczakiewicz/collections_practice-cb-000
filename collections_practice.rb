@@ -24,7 +24,7 @@ end
 def kesha_maker(array)
   array2 = Array.new
   array.each{|element|
-    element[2] = $
+    element[2] = "$"
     array2 << element}
   array2
 end
