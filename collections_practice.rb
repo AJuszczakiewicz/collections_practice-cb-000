@@ -31,4 +31,4 @@ end
 
 def find_a(array)
   array.delete_if{|element| !(element.start_with?(a)}
-
+end
