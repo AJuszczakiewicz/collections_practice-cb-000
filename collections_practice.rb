@@ -16,5 +16,6 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.each{array.unshift(array.shift)}
+  # array.each{array.unshift(array.shift)}
+  array.send(:reverse)
 end
