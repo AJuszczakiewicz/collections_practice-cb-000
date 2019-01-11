@@ -18,6 +18,12 @@ end
 def reverse_array(array)
   array2 = Array.new
   array.each{|el| array2.unshift(el)}
-  #array.send(:reverse)
   array2
+end
+
+def kesha_maker(array)
+  array2 = Array.new
+  array.each{|element| 
+    element[2] = $
+    array2 << element}
 end
