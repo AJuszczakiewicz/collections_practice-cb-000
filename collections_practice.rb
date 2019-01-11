@@ -9,3 +9,9 @@ end
 def sort_array_char_count(array)
   array.sort{|a,b| a.size <=> b.size}
 end
+
+def swap_elements(array)
+  a = array[1]
+  array[1] = array[2]
+  array[2] = a
+end
